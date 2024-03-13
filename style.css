@@ -31,15 +31,20 @@ body {
   position: absolute;
   left: 380px;
   top: 295px;
-  /*
+
   z-index: 1;
-  */
+
 }
 
-.foto, .obsah, .odkazy {
+.profil {
   width: 400px;
   box-shadow: 5px 5px 5px #31363b;
 }
+/*
+.foto, .obsah, .odkazy {
+  width: 400px;
+  box-shadow: 5px 5px 5px #31363b;
+} */
 
 .jmeno {
   font-family: montserrat;
@@ -50,11 +55,9 @@ body {
   padding: 50px;
   background-color: #313131;
   font-size: 18px;
-  line-height: 1.8;
-  /* jak spojit fotku a text, zrusit mezeru 
+  line-height: 1.8; 
   position: relative;
   bottom: 3px;
-  */
 }
 
 .odkazy {
