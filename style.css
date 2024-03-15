@@ -21,7 +21,6 @@ body {
   margin-left: 50px;
   margin-top: 50px;
   color: white;
-  font-family: source sans 3, Arial, Helvetica, sans-serif;
 }
 
 .logo {
@@ -31,7 +30,6 @@ body {
   position: absolute;
   left: 380px;
   top: 295px;
-
   z-index: 1;
 
 }
@@ -40,11 +38,6 @@ body {
   width: 400px;
   box-shadow: 5px 5px 5px #31363b;
 }
-/*
-.foto, .obsah, .odkazy {
-  width: 400px;
-  box-shadow: 5px 5px 5px #31363b;
-} */
 
 .jmeno {
   font-family: montserrat;
@@ -54,10 +47,15 @@ body {
 .obsah {
   padding: 50px;
   background-color: #313131;
-  font-size: 18px;
   line-height: 1.8; 
   position: relative;
   bottom: 3px;
+}
+
+.vyvojarka, .jsemmachr {
+  font-family: Source Code Pro;
+  font-size: 16px;
+  line-height: 1.8; 
 }
 
 .odkazy {
@@ -80,7 +78,7 @@ body {
   border-top: 2px solid #bdc3c7;
   border-bottom: 2px solid #bdc3c7;
   right: 0;
-  top: -15px;
+  top: -20px;
   }
 
 .portfolio a, .facebook a, .twitter a {
@@ -96,7 +94,7 @@ body {
 .facebook {
   width: 200px;
   border-right: 2px solid #bdc3c7;
-  top: 48px;
+  top: 43px;
   left: 0;
 }
 
@@ -107,7 +105,7 @@ body {
 .twitter {
   width: 200px;
   right: 0;
-  top: 48px;
+  top: 43px;
 }
 
 .twitter:hover {
